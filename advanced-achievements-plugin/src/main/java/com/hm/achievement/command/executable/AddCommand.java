@@ -84,4 +84,5 @@ public class AddCommand extends AbstractParsableCommand {
 					new String[] { args[2], StringHelper.getClosestMatch(args[2], enabledCategoriesWithSubcategories) }));
 		}
 	}
+
 }
